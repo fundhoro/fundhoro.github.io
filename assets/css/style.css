@@ -51,23 +51,23 @@ img {
 @media (orientation: landscape) {
     img {
         height: 400px;
-        width: 200px;
+        width: 230px;
     }
 
     .card {
         height: 400px;
-        width: 200px;
+        width: 230px;
     }
 }
 
 @media (orientation: portrait) {
     img {
         height: 1000px;
-        width: 500px;
+        width: 575px;
     }
 
     .card {
         height: 1000px;
-        width: 500px;
+        width: 575px;
     }
 }
