@@ -6,7 +6,7 @@ let sound = new Audio(
 let flip = false;
 
 card.querySelector(".back img").src =
-  "https://astro.meemodel.com/img/tarot/front/" + cardid + ".jpg";
+  "https://www.myhora.net/astrology/tarot/card/" + (cardid - 1) + ".png";
 
 card.addEventListener("click", () => {
   if (!flip) {
