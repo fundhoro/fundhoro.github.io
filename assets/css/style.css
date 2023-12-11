@@ -12,8 +12,6 @@ body {
 }
 
 img {
-    height: 400px;
-    width: 200px;
     border: solid white 2px;
     border-radius: 10px;
 }
@@ -23,11 +21,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 400px;
-    width: 200px;
     transform-style: preserve-3d;
     transition: all 1.5s ease;
-
 }
 
 .front {
@@ -51,4 +46,28 @@ img {
 
 .card.flip {
     transform: translate(-50%, -50%) rotateY(180deg);
+}
+
+@media (orientation: landscape) {
+    img {
+        height: 400px;
+        width: 200px;
+    }
+
+    .card {
+        height: 400px;
+        width: 200px;
+    }
+}
+
+@media (orientation: portrait) {
+    img {
+        height: 1000px;
+        width: 500px;
+    }
+
+    .card {
+        height: 1000px;
+        width: 500px;
+    }
 }
