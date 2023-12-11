@@ -11,11 +11,6 @@ body {
     height: 100%;
 }
 
-img {
-    border: solid white 2px;
-    border-radius: 10px;
-}
-
 .card {
     position: absolute;
     top: 50%;
@@ -50,6 +45,8 @@ img {
 
 @media (orientation: landscape) {
     img {
+        border: solid white 2px;
+        border-radius: 10px;
         height: 400px;
         width: 230px;
     }
@@ -62,6 +59,8 @@ img {
 
 @media (orientation: portrait) {
     img {
+        border: solid white 10px;
+        border-radius: 20px;
         height: 1000px;
         width: 575px;
     }
